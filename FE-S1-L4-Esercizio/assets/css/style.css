@@ -13,6 +13,9 @@
 /* ELEMENTI NELL' ASIDE */
 
 /* FOOTER */
+/* html{
+    font-family: 'Roboto Mono', monospace;
+} */
 body{
     background-image: url(../img/sfondo.png);
 }
@@ -43,7 +46,7 @@ main{
     /* display: inline-block; */
 }
 main + p{
-    color: rgb(164, 159, 159);
+    color: rgba(164, 159, 159, 0.52);
 }
 
 main p span{
@@ -66,4 +69,28 @@ footer{
 iframe{
     width: 100%;
     border-radius: 10%;
+}
+footer{
+    display: block;
+    margin:auto;
+    margin-top: 8px;
+    width: 430px;
+    text-align: center;
+    padding: 14px;
+
+}
+.parte-iniziale{
+    border: 1px solid black;
+    background-color: #61b0e2;
+}
+
+table{
+    width: 100%;
+    text-align: center;
+}
+main span input{
+    margin-left: 22%;
+}
+footer code{
+    text-align: right;
 }
